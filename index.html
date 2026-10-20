@@ -25,8 +25,9 @@
 :root{--n:#17214f;--n2:#0e1536;--y:#f6b92b;--w:#8b5a33;--w2:#b07d4f;--b:#f5ecdf;--g:#6b7280;--k:#0c0c0f}
 *{scroll-behavior:smooth}
 body{font-family:Cairo,sans-serif;color:var(--k);overflow-x:hidden}
-section{scroll-margin-top:70px}
+section{scroll-margin-top:70px;overflow-x:hidden !important;}
 /* header */
+
 .hd{position:fixed;inset:0 0 auto;z-index:1000;padding:.7rem 0;transition:.4s}
 .hd.s{background:#fffffff2;backdrop-filter:blur(10px);box-shadow:0 5px 25px #0002;padding:.35rem 0}
 .brand{display:flex;align-items:center;gap:.6rem;color:#fff;font-weight:800;text-decoration:none;transition:.4s;line-height:1.2}
